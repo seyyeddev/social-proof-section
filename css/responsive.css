@@ -1,0 +1,56 @@
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top 0 left 0, bottom 0 right 0;
+    }
+
+    .main {
+        padding: 2rem;
+    }
+
+    /** section 1 => (intro, rate) **/
+    /* intro */
+    .intro {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    /* rate */
+    .rate {
+        max-width: 28.125rem;
+        margin-left: auto;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .rate-first {
+        margin-right: 5rem;
+    }
+
+    .rate-second {
+        margin-right: 2.5rem;
+    }
+
+    .rate__starslist {
+        margin: 1rem;
+    }
+
+    .rate__text {
+        margin: 0;
+    }
+
+    /* section 2 */
+    .comment {
+        height: 16.625rem;
+    }
+
+    .comment-second {
+        margin-top: 1.25rem;
+    }
+
+    .comment-third {
+        margin-top: 2.5rem;
+    }
+}
