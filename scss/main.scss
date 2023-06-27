@@ -19,4 +19,10 @@ body {
     background-repeat: no-repeat;
     background-position: top 0 left 0, bottom 0 right 0;
     font-family: $ff-main;
+
+    //responsive
+    @include desktop() {
+        background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+        @include displayFlex(row, center, center);
+    }
 }
